@@ -107,6 +107,24 @@ nav ul li{
     color: #1f2937;
 }
 
+.quote{
+    max-height: 400px;
+    background-color:#e5e7eb;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 250px;
+    padding-left: 250px;
+    font-style: italic;
+}
+
+.author{
+    font-weight: bold;
+    margin-left:auto;
+}
+
 
 
 
