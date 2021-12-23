@@ -101,6 +101,8 @@ nav ul li{
 }
 
 .header img{
+    border-radius: 12px;
+    border:2px solid rgb(3, 106, 224);
     width: 150px;
     height: 150px;
 }
