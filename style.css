@@ -3,6 +3,10 @@ html,body{
     padding: 0;
 }
 
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 nav{
     text-decoration: none;
     display: flex;
@@ -35,6 +39,7 @@ nav ul li{
     padding-right:60px;
     margin-left: -3px;
     margin-right: -3px;
+    height: 400px;
 }
 
 #hero img{
@@ -63,6 +68,43 @@ nav ul li{
     border: none;
     padding: 8px;
 
+}
+
+#hero button:hover{
+    background-color: #143f7c;
+}
+
+.header{
+    max-height: 400px;
+}
+
+.images{
+    display:flex;
+    align-content: center;
+    justify-content: space-around;   
+    padding: 10px;
+}
+
+.header h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 80px;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+}
+
+.images p{
+    font-size: 14px;
+    max-width: 150px;
+    text-align: center;
+    color: #1f2937;
 }
 
 
